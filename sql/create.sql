@@ -1,0 +1,1 @@
+CREATE TABLE torder (codcontrolorder VARCHAR(8) NOT NULL UNIQUE PRIMARY KEY, creationdatetime TIMESTAMP DEFAULT CURRENT_TIMESTAMP, nameitem VARCHAR(50), valueunititem DOUBLE DEFAULT 1000.0, qtitems INT DEFAULT 1, codclient INT);
